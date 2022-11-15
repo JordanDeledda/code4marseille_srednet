@@ -1,7 +1,7 @@
 import WidgetBlue from '../components/widgetEvents/WidgetBlue';
 import WidgetRed from '../components/widgetEvents/WidgetRed';
 import { getObjets, getModifies } from "../utils/element";
-import { useState } from 'react';
+import {useState} from 'react';
 
 const Home = () => {
     const [date, setDate] = useState('');
@@ -71,7 +71,7 @@ const Home = () => {
                 </div>
                 <div className={"home-sub-6"}>
                     <div className={"home-sub-5-first-input"}>
-                        <input name={"date_start"} type="date"/>
+                        <input name={"date_start"} onChange={e =>setDate(e.target.value)} type="date"/>
                     </div>
                 </div>
                 <div className={"home-sub-7"}></div>
@@ -82,8 +82,8 @@ const Home = () => {
                 <div className={"home-sub-10"}></div>
                 <div className={"home-sub-11"}>
                     <div>
-                        <span>CATEGORIE:</span>
-                        <select>
+                        <select onChange={e => setCategory(e.target.value)}>
+                            <option value="">CATEGORIE</option>
                             <option value="NATURE">NATURE</option>
                             <option value="CULTURE">CULTURE</option>
                             <option value="TRADITION">TRADITION</option>
@@ -92,7 +92,8 @@ const Home = () => {
                 </div>
                 <div className={"home-sub-12"}>
                     <div>
-                        <select>
+                        <select onChange={e => setSport(e.target.value)}>
+                            <option value="">SPORT</option>
                             <option value="VOILE">VOILE</option>
                             <option value="FOOTBALL">FOOTBALL</option>
                         </select>
