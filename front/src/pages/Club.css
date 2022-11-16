@@ -1,0 +1,159 @@
+body{
+    background-color: #f3f3f3;
+    margin-left: 55px;
+}
+
+.white1{
+
+    width: 23vw;
+    height: 18vh;
+    
+
+}
+h1{
+    position: absolute;
+    font-size: 70px;
+}
+.h1-color{
+    color: #f3f3f3;
+}
+
+.blue1{
+
+    width: 23vw;
+    height: 18vh;
+    background-color: #00004D;
+
+}
+.pink1{
+    width: 23vw;
+    height: 18vh;
+    background-color:  #ED354F;
+
+}
+.pink2{
+
+    width: 23vw;
+    height: 18vh;
+    background: #ED354F;
+    padding-bottom: 20px;
+}
+
+.blue2{
+
+    width: 23vw;
+    background-color: #00004D;
+    height: 18vh;
+
+
+}
+.white2{
+
+    width: 23vw;
+    height: 18vh;
+ 
+}
+.club{
+
+    display: inline-block;
+
+}
+
+
+.logo{
+
+    width: 23vw;
+    height: 37vh;
+    background-image: url(../../public/img/logo.png);
+ 
+}
+.blue-nom{
+
+    background-color: #00004D;
+    width: 45vw;
+    height: 23vh;
+}
+.div-border{
+   width: 24vw;
+   height: 23vh;
+   margin-left: 2px;
+   border: 2px solid black;
+}
+
+.club2{
+
+    display: inline-block;
+}
+
+.div-contact{
+
+    width: 24vw;
+    height: 23vh;
+}
+.club3{
+
+    display: inline-block;
+}
+.div-border-2{
+    width: 21vw;
+    height: 23vh;
+    margin-left: 2px;
+    
+    border: 2px solid black;
+ }
+
+
+ .pink-contact{
+
+    background-color: #ED354F;
+    height: 23vh;
+    width: 47vw;
+    margin-left: 4px;
+
+ }
+
+ .club4{
+
+
+    display: inline-block;
+ }
+
+ .div-fleche{
+
+
+    width: 100%;
+
+    height: 25vh;
+ }
+
+ .club5{
+    display:inline-block;
+ }
+
+ .div-logo{
+
+    width: 23vw;
+    height: 10vh;
+ }
+
+ .blue-logo{
+    width: 23vw;
+    height: 10vh;
+    background-color: #00004D;
+
+ }
+ .div-pink{
+    width: 23vw;
+    height: 20vh;
+    background-color: #ED354F;
+
+ }
+ div:hover{
+
+  
+    cursor: pointer;
+    box-shadow: 60px 50px 10px 0 rgba(0,0,0,.1000);
+
+ }
+ 
+ 

@@ -1,6 +1,6 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Footer from "./components/footer/Footer";
-import Accueil from "./pages/Accueil";
+import Accueil from "./pages/Club";
 
 function App() {
   return (
