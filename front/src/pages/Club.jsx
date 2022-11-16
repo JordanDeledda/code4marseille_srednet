@@ -2,11 +2,14 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from "../components/footer/Footer";
 import './Club.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faAngleDown} from '@fortawesome/free-solid-svg-icons'
 
 
 
-const Club = () =>  {
+
+
+function Club() {
     return (
         <div>
             <Header />
@@ -20,8 +23,19 @@ const Club = () =>  {
             <div class="club">
 
                 <div class="blue2"></div>
-                <div class="white1"><h1>Sport</h1></div>
-                <div class="white1"><FontAwesomeIcon icon="fa-sharp fa-solid fa-check" /></div>
+                <div class="white1"><h1 class="bloc">
+                                <div class="select"> 
+                                    <select>
+                                    <option>SPORT</option>
+                                    <option value="1">Rugby</option>
+                                    <option value="2">Foot</option>
+                                    <option value="3">Tennis</option>
+                                    <option value="4">???</option>
+                                    </select>
+                                </div>
+                                </h1>
+                                </div>
+                <div class="white1"></div>
 
             </div>
             <div class="club">
