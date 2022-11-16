@@ -25,6 +25,17 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
 }
+.home-club{
+    height: calc(85vh - 143px);
+    width: 100%;
+    display: grid;
+    grid-template-areas: "home-sub-1 home-sub-2 home-sub-3 home-sub-4"
+                         "home-sub-5 home-sub-6 home-sub-3 home-sub-4"
+                         "home-sub-7 home-sub-8 home-sub-11 home-sub-11"
+                         "home-sub-9 home-sub-10 home-sub-12 home-sub-12";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
 .home-sub-1{
     grid-area: home-sub-1;
     display: flex;
@@ -75,11 +86,24 @@
     font-weight: bold;
     font-size: 4em;
 }
+.home-sub-5-club{
+    grid-area: home-sub-5;
+    background-color: var(--bleu-nuit);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: bold;
+    font-size: 4em;
+}
 .home-sub-5 > span{
     background-color: var(--bleu-nuit);
     color: var(--blanc);
     width: 50%;
     text-align: end;
+}
+.home-sub-5-club > span{
+    background-color: var(--bleu-nuit);
+    color: var(--blanc);
 }
 .home-sub-6{
     grid-area: home-sub-6;
